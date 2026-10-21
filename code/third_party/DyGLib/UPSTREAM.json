@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/yule-BUAA/DyGLib",
+  "commit": "3aacc36b94b8d2d8293d70a74fdf6d39089b4163",
+  "license": "MIT",
+  "copied_files": {
+    "models/MemoryModel.py": "b72a84f25e626791173265c33da88300f6724513917be898c4956655bc9cc266",
+    "models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "models/DyGFormer.py": "0e1598f1f059500a1521e40f457c0e8c11724efb593bb2112aebc28c325e0b32",
+    "models/GraphMixer.py": "0a36beaf2d3ee331977c3b3f488af6b94256cb0434e1175adb24cdca8a8a09fb",
+    "models/modules.py": "647da1e52595a33279a9f8018d0651112b94cbbe7e4da853996304997fa41b82",
+    "utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "utils/utils.py": "71cfe633228cf069dd39f2fca0dc5f65f474f751868d38d0b030afda6852d64a",
+    "utils/DataLoader.py": "18d9e96dba362b970945e2a8efa3787cbfdc3183cd916e2400071684f41d51ab"
+  }
+}

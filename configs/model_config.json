@@ -1,0 +1,26 @@
+{
+  "IIoTAPT": {
+    "feature_dim": 52,
+    "heads": 4,
+    "hidden": 128,
+    "layers": 2,
+    "batch": 64,
+    "lr": 0.001
+  },
+  "CloudDDoS": {
+    "feature_dim": 314,
+    "heads": 2,
+    "hidden": 256,
+    "layers": 2,
+    "batch": 32,
+    "lr": 0.0005
+  },
+  "Darknet": {
+    "feature_dim": 64,
+    "heads": 4,
+    "hidden": 128,
+    "layers": 2,
+    "batch": 64,
+    "lr": 0.001
+  }
+}

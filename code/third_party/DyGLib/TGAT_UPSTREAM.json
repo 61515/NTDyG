@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/yule-BUAA/DyGLib",
+  "commit": "3aacc36b94b8d2d8293d70a74fdf6d39089b4163",
+  "license": "MIT",
+  "url": "https://raw.githubusercontent.com/yule-BUAA/DyGLib/3aacc36b94b8d2d8293d70a74fdf6d39089b4163/models/TGAT.py",
+  "copied_files": {
+    "models/TGAT.py": "e55b84ed4d381ad865157f40b5e44ef5d0dbaac8ead936e40862fa6fd93600ea"
+  }
+}

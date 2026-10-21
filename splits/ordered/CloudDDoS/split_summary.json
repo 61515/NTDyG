@@ -1,0 +1,73 @@
+{
+  "source_csv": "data/binary/CloudDDoS_re.csv",
+  "source_sha256": "7b742d3320c4b4847976fdf0e524047c90dc8a8a8c91758b4feb1a16b73f855f",
+  "source_rows": 140987,
+  "order_key_groups": 140987,
+  "order_key_equals_zero_based_source_row": true,
+  "order_column": "Timestamp_Label",
+  "order_key_semantics": "numeric event-order key; physical-time meaning and units not established",
+  "label_column": "Label_encoded",
+  "positive_label": "1",
+  "negative_label": "0",
+  "requested_ratios": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "actual_ratios": {
+    "train": 0.5999985814294935,
+    "validation": 0.2000042557115195,
+    "test": 0.199997162858987
+  },
+  "splits": {
+    "train": {
+      "index_file": "train_indices.csv",
+      "events": 84592,
+      "normal": 25358,
+      "anomalous": 59234,
+      "other_label": 0,
+      "anomaly_prevalence": 0.7002317003972007,
+      "order_key_min": "0",
+      "order_key_max": "84591",
+      "label_counts": {
+        "0": 25358,
+        "1": 59234
+      }
+    },
+    "validation": {
+      "index_file": "validation_indices.csv",
+      "events": 28198,
+      "normal": 227,
+      "anomalous": 27971,
+      "other_label": 0,
+      "anomaly_prevalence": 0.9919497836726009,
+      "order_key_min": "84592",
+      "order_key_max": "112789",
+      "label_counts": {
+        "0": 227,
+        "1": 27971
+      }
+    },
+    "test": {
+      "index_file": "test_indices.csv",
+      "events": 28197,
+      "normal": 5984,
+      "anomalous": 22213,
+      "other_label": 0,
+      "anomaly_prevalence": 0.7877788417207504,
+      "order_key_min": "112790",
+      "order_key_max": "140986",
+      "label_counts": {
+        "0": 5984,
+        "1": 22213
+      }
+    }
+  },
+  "pairwise_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "covers_all_source_rows": true,
+  "strict_order_key_order": true
+}

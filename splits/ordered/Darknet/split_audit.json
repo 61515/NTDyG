@@ -1,0 +1,53 @@
+{
+  "source_csv": "data/binary/Darknet_re.csv",
+  "source_rows": 158566,
+  "indexed_source_rows": 158566,
+  "unindexed_source_rows": 0,
+  "order_column": "Timestamp_Label",
+  "label_column": "Label_encoded",
+  "positive_label": "1",
+  "splits": {
+    "train": {
+      "events": 95140,
+      "normal": 71310,
+      "anomalous": 23830,
+      "anomaly_prevalence": 0.2504729871767921,
+      "order_key_min": "0",
+      "order_key_max": "95139",
+      "label_counts": {
+        "0": 71310,
+        "1": 23830
+      }
+    },
+    "validation": {
+      "events": 31713,
+      "normal": 31631,
+      "anomalous": 82,
+      "anomaly_prevalence": 0.002585690410872513,
+      "order_key_min": "95140",
+      "order_key_max": "126852",
+      "label_counts": {
+        "0": 31631,
+        "1": 82
+      }
+    },
+    "test": {
+      "events": 31713,
+      "normal": 31314,
+      "anomalous": 399,
+      "anomaly_prevalence": 0.012581591145586983,
+      "order_key_min": "126853",
+      "order_key_max": "158565",
+      "label_counts": {
+        "0": 31314,
+        "1": 399
+      }
+    }
+  },
+  "pairwise_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "strict_order_key_order": true
+}

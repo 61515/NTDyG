@@ -1,0 +1,73 @@
+{
+  "source_csv": "data/binary/IIoTAPT_re.csv",
+  "source_sha256": "d9cc325fbd3850e6b1fe6d5a00ced8602232605ae3d62ed203668134f62e8c86",
+  "source_rows": 79824,
+  "order_key_groups": 79824,
+  "order_key_equals_zero_based_source_row": false,
+  "order_column": "Timestamp_Label",
+  "order_key_semantics": "numeric event-order key; physical-time meaning and units not established",
+  "label_column": "Label_encoded",
+  "positive_label": "1",
+  "negative_label": "0",
+  "requested_ratios": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "actual_ratios": {
+    "train": 0.5999949889757467,
+    "validation": 0.20000250551212667,
+    "test": 0.20000250551212667
+  },
+  "splits": {
+    "train": {
+      "index_file": "train_indices.csv",
+      "events": 47894,
+      "normal": 47868,
+      "anomalous": 26,
+      "other_label": 0,
+      "anomaly_prevalence": 0.0005428654946339834,
+      "order_key_min": "24",
+      "order_key_max": "48693",
+      "label_counts": {
+        "0": 47868,
+        "1": 26
+      }
+    },
+    "validation": {
+      "index_file": "validation_indices.csv",
+      "events": 15965,
+      "normal": 15533,
+      "anomalous": 432,
+      "other_label": 0,
+      "anomaly_prevalence": 0.027059191982461636,
+      "order_key_min": "48694",
+      "order_key_max": "64759",
+      "label_counts": {
+        "0": 15533,
+        "1": 432
+      }
+    },
+    "test": {
+      "index_file": "test_indices.csv",
+      "events": 15965,
+      "normal": 15419,
+      "anomalous": 546,
+      "other_label": 0,
+      "anomaly_prevalence": 0.03419981208894456,
+      "order_key_min": "64760",
+      "order_key_max": "80820",
+      "label_counts": {
+        "0": 15419,
+        "1": 546
+      }
+    }
+  },
+  "pairwise_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "covers_all_source_rows": true,
+  "strict_order_key_order": true
+}

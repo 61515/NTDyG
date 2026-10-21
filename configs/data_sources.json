@@ -1,0 +1,20 @@
+{
+  "CloudDDoS": {
+    "file": "CloudDDoS_re.csv",
+    "feature_count": 314,
+    "sha256": "7b742d3320c4b4847976fdf0e524047c90dc8a8a8c91758b4feb1a16b73f855f",
+    "schema": "binary"
+  },
+  "IIoTAPT": {
+    "file": "IIoTAPT_re.csv",
+    "feature_count": 52,
+    "sha256": "d9cc325fbd3850e6b1fe6d5a00ced8602232605ae3d62ed203668134f62e8c86",
+    "schema": "binary"
+  },
+  "Darknet": {
+    "file": "Darknet_re.csv",
+    "feature_count": 64,
+    "sha256": "ac8f5307f0c783edadb2dd3b63743f5e95bdfe2e26ede5e49ad131ae9bef6907",
+    "schema": "binary"
+  }
+}

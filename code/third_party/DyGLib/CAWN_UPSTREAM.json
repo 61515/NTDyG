@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/yule-BUAA/DyGLib",
+  "commit": "3aacc36b94b8d2d8293d70a74fdf6d39089b4163",
+  "license": "MIT",
+  "url": "https://raw.githubusercontent.com/yule-BUAA/DyGLib/3aacc36b94b8d2d8293d70a74fdf6d39089b4163/models/CAWN.py",
+  "copied_files": {
+    "models/CAWN.py": "310b124f35478a6624f487bed01e09eea19ef7dd06ec658415286884bc336352"
+  }
+}

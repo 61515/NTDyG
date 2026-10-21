@@ -1,0 +1,53 @@
+{
+  "source_csv": "data/binary/IIoTAPT_re.csv",
+  "source_rows": 79824,
+  "indexed_source_rows": 79824,
+  "unindexed_source_rows": 0,
+  "order_column": "Timestamp_Label",
+  "label_column": "Label_encoded",
+  "positive_label": "1",
+  "splits": {
+    "train": {
+      "events": 47894,
+      "normal": 47868,
+      "anomalous": 26,
+      "anomaly_prevalence": 0.0005428654946339834,
+      "order_key_min": "24",
+      "order_key_max": "48693",
+      "label_counts": {
+        "0": 47868,
+        "1": 26
+      }
+    },
+    "validation": {
+      "events": 15965,
+      "normal": 15533,
+      "anomalous": 432,
+      "anomaly_prevalence": 0.027059191982461636,
+      "order_key_min": "48694",
+      "order_key_max": "64759",
+      "label_counts": {
+        "0": 15533,
+        "1": 432
+      }
+    },
+    "test": {
+      "events": 15965,
+      "normal": 15419,
+      "anomalous": 546,
+      "anomaly_prevalence": 0.03419981208894456,
+      "order_key_min": "64760",
+      "order_key_max": "80820",
+      "label_counts": {
+        "0": 15419,
+        "1": 546
+      }
+    }
+  },
+  "pairwise_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "strict_order_key_order": true
+}

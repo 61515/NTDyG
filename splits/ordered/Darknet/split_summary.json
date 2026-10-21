@@ -1,0 +1,73 @@
+{
+  "source_csv": "data/binary/Darknet_re.csv",
+  "source_sha256": "ac8f5307f0c783edadb2dd3b63743f5e95bdfe2e26ede5e49ad131ae9bef6907",
+  "source_rows": 158566,
+  "order_key_groups": 158566,
+  "order_key_equals_zero_based_source_row": true,
+  "order_column": "Timestamp_Label",
+  "order_key_semantics": "numeric event-order key; physical-time meaning and units not established",
+  "label_column": "Label_encoded",
+  "positive_label": "1",
+  "negative_label": "0",
+  "requested_ratios": {
+    "train": 0.6,
+    "validation": 0.2,
+    "test": 0.2
+  },
+  "actual_ratios": {
+    "train": 0.6000025226088821,
+    "validation": 0.19999873869555895,
+    "test": 0.19999873869555895
+  },
+  "splits": {
+    "train": {
+      "index_file": "train_indices.csv",
+      "events": 95140,
+      "normal": 71310,
+      "anomalous": 23830,
+      "other_label": 0,
+      "anomaly_prevalence": 0.2504729871767921,
+      "order_key_min": "0",
+      "order_key_max": "95139",
+      "label_counts": {
+        "0": 71310,
+        "1": 23830
+      }
+    },
+    "validation": {
+      "index_file": "validation_indices.csv",
+      "events": 31713,
+      "normal": 31631,
+      "anomalous": 82,
+      "other_label": 0,
+      "anomaly_prevalence": 0.002585690410872513,
+      "order_key_min": "95140",
+      "order_key_max": "126852",
+      "label_counts": {
+        "0": 31631,
+        "1": 82
+      }
+    },
+    "test": {
+      "index_file": "test_indices.csv",
+      "events": 31713,
+      "normal": 31314,
+      "anomalous": 399,
+      "other_label": 0,
+      "anomaly_prevalence": 0.012581591145586983,
+      "order_key_min": "126853",
+      "order_key_max": "158565",
+      "label_counts": {
+        "0": 31314,
+        "1": 399
+      }
+    }
+  },
+  "pairwise_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 0,
+    "validation__test": 0
+  },
+  "covers_all_source_rows": true,
+  "strict_order_key_order": true
+}

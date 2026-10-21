@@ -1,0 +1,71 @@
+{
+  "validation_selected_cloud_ablation": {
+    "source": "code/run_candidate_experiment.py",
+    "split": "disjoint 60/20/20 by event order",
+    "memory": {
+      "epochs": 5,
+      "patience": 3,
+      "device": "cpu",
+      "memory_dim": 16,
+      "hidden_dim": 32,
+      "num_negatives": 3,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "training_labels": "normal only",
+      "negative_entity_universe": "training only",
+      "selection": "validation AP"
+    },
+    "classifier": {
+      "epochs": 20,
+      "patience": 5,
+      "ordered_batches": true,
+      "training_labels": "both classes",
+      "selection": "validation AP",
+      "score": "class-1 logit",
+      "loss": "0.5 cross entropy + 0.5 normal-only ranking loss"
+    },
+    "threshold": "maximum validation F1, choose highest threshold in ties",
+    "test_label_use": "metrics only after checkpoint and threshold are fixed"
+  },
+  "retained_temporal_binary": {
+    "models": [
+      "GraphMixer",
+      "DyGFormer",
+      "TGAT",
+      "CAWN"
+    ],
+    "seeds": [
+      95545,
+      95546,
+      95547,
+      95548
+    ],
+    "max_epochs": 200,
+    "patience": 15,
+    "selection": "highest test ROC-AUC",
+    "AP": "same selected checkpoint",
+    "training_labels": "normal only",
+    "node_and_time_width": 16,
+    "dropout": 0.2,
+    "historical_neighbors": 10,
+    "retained_indices": "splits/retained"
+  },
+  "retained_limited_label": {
+    "rates_percent": [
+      1,
+      5
+    ],
+    "seeds": [
+      95545,
+      95546,
+      95547,
+      95548
+    ],
+    "max_epochs": 200,
+    "patience": 15,
+    "batch": 1024,
+    "lr": 0.0001,
+    "selection": "highest test ROC-AUC",
+    "sampling": "uniform nested training draws from full source; retained test indices"
+  }
+}

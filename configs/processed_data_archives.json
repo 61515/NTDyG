@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "compression": "gzip",
+  "files": [
+    {
+      "schema": "binary",
+      "dataset": "IIoTAPT",
+      "archive": "data/archives/binary_IIoTAPT.csv.gz",
+      "archive_bytes": 8508585,
+      "archive_sha256": "c46ef56e8f33c3dd18c3b93afc820bffb81c6c2106bd8fb88bc4860f25e34af9",
+      "csv": "data/binary/IIoTAPT_re.csv",
+      "csv_bytes": 29749237,
+      "csv_sha256": "d9cc325fbd3850e6b1fe6d5a00ced8602232605ae3d62ed203668134f62e8c86"
+    },
+    {
+      "schema": "binary",
+      "dataset": "Darknet",
+      "archive": "data/archives/binary_Darknet.csv.gz",
+      "archive_bytes": 12529561,
+      "archive_sha256": "6b159d65aec2260910a944e540d820d6cdd7143951b48f31263d78430cf6cecc",
+      "csv": "data/binary/Darknet_re.csv",
+      "csv_bytes": 53411685,
+      "csv_sha256": "ac8f5307f0c783edadb2dd3b63743f5e95bdfe2e26ede5e49ad131ae9bef6907"
+    },
+    {
+      "schema": "multiclass",
+      "dataset": "IIoTAPT",
+      "archive": "data/archives/multiclass_IIoTAPT.csv.gz",
+      "archive_bytes": 8521220,
+      "archive_sha256": "02c7ad710776f5851b5ac4ce3b9987c183c850504c2c28adeb1c86b34bb32bf2",
+      "csv": "data/multiclass/IIoTAPT_re.csv",
+      "csv_bytes": 29908901,
+      "csv_sha256": "1bd07588d5343f62de31b9af0cdc925b55e6ca205bc577aecc37752ff74eafff"
+    },
+    {
+      "schema": "multiclass",
+      "dataset": "Darknet",
+      "archive": "data/archives/multiclass_Darknet.csv.gz",
+      "archive_bytes": 12783407,
+      "archive_sha256": "704cbf618ceb1e24a2558d12997554fc2d187aa1bd9d4489c949a783b51bfaf9",
+      "csv": "data/multiclass/Darknet_re.csv",
+      "csv_bytes": 57738177,
+      "csv_sha256": "7e31242076d44a579703502753d0054e14e5ca59bc73d351f300d55ec0048422"
+    }
+  ],
+  "not_bundled": {
+    "CloudDDoS": "Redistribution permission was not established from the BCCC provider pages inspected on 2026-10-21. Obtain the source from the official provider; exact processed-file hashes remain in the data-source configurations."
+  }
+}
